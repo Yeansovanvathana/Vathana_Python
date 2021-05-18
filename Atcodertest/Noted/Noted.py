@@ -158,3 +158,6 @@ def main():
     print(r**2)
 if __name__ == "__main__":
     main()
+picture = [input() for _ in range(H)]
+N = int(input())
+D = [list(map(int, input().split())) for d in range(N)]
