@@ -13,6 +13,35 @@
 # firstpart, secondpart = S[:int(len(S)/2)], S[int(len(S)/2):]
 
 # print("Yes") if firstpart == secondpart else print("No")
+# X, N = map(int, input().split())
+# p = list(map(int, input().split()))
+# ans = 0
+# for i in range(5**5):
+    # print('-')
+    # print(X - i)
+    #
+    # print('+')
+    # print(X + i)
+#     if X - i in p:
+#         print(X - i)
+#         ans += 1
+#     elif X + i in p:
+#         print(X + i)
+#         ans += 1
+# print(ans)
+
+# mod = 10**9 + 7
+# total = sum(a) % mod
+# ans = 0
+# print(total)
+# for i in range(n-1):
+#     print(i)
+#     total = (total-a[i])
+#     print(total-a[i])
+#     ans += (a[i]*total)
+#     print(a[i]*total)
+# ans = (ans)
+# print(ans)
 
 import math
 # sys.setrecursionlimit(10 ** 8)

@@ -1,0 +1,5 @@
+a = list(map(int, input().split()))
+ans = max(a)
+a.remove(ans)
+ans1 = max(a)
+print(ans+ans1)
