@@ -1,0 +1,3 @@
+print("""
+Too Easy!
+""")
