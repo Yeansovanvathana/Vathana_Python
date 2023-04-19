@@ -1,0 +1,6 @@
+N = int(input())
+grades = list(map(int, input().split()))
+grades.sort()
+total = sum(grades[N: -N])
+average = total / (3 * N)
+print(average)
